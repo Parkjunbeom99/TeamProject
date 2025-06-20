@@ -11,4 +11,14 @@ AMyActor::AMyActor()
 
 }
 
+void AMyActor::Beginplay()
+{
+	Super::BeginPlay();
+	UE_LOG(LogTemp, Log, TEXT("Written by other"));
+
+}
+
+
+	
+
 

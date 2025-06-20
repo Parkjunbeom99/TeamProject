@@ -14,7 +14,7 @@ class TEAMPROJECT_API AMyActor : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AMyActor();
-
+	virtual void Beginplay() override;
 
 
 };
